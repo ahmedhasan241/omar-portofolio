@@ -16,7 +16,7 @@
 
       <img
         loading="eager"
-        src="https://i.postimg.cc/rpz1H1MC/IMG-3447.jpg"
+        src="https://i.postimg.cc/T1pwGZrN/IMG-5205.jpg"
         alt="programming"
         class="w-full h-full rounded-full object-cover z-[2]"
       />

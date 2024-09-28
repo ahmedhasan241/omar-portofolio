@@ -10,14 +10,14 @@
     </div>
     <div
       class="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-    <div class="grid md:grid-cols-2 py-24 gap-4 relative">
-      <div>
-        <h2 class="text-xl font-bold my-2">Let's Connect</h2>
-        <p class="mb-4 max-w-md">
+    <div class="grid md:grid-cols-2  py-24 gap-4 relative">
+      <div class=" flex flex-col !items-center">
+        <h2 class="text-xl font-bold my-2 md:!mb-2 md:!mt-32 ">Let's Do Something Incredible Together</h2>
+        <!-- <p class="mb-4 max-w-md">
           Don't hesitate to send me a message or an e-mail. <br />I will get
           back to you as fast as I can.
-        </p>
-        <div class="flex flex-col gap-4 text-xl">
+        </p> -->
+        <div class="flex flex-col md:flex-row justify-around  gap-4 text-xl">
           <div class="flex flex-row gap-x-6">
             <a
               href="https://www.linkedin.com/in/omar-elbakry-495848250/"
@@ -41,14 +41,15 @@
             >
           </div>
           <div class="flex flex-row items-center">
-  <a
-    href="tel:01096126337"
-    class="text-base md:text-lg font-bold hover:text-primary">
-    <Icon
-      name="fa6-solid:phone"
-      class="size-6" />
- 01096126337
-  </a>
+<a
+  href="https://wa.me/201096126337?text=Hello, I would like to inquire about..."
+  target="_blank"
+  class="text-base md:text-lg font-bold hover:text-primary">
+  <Icon
+    name="logos:whatsapp-icon"
+    class="size-6" />
+  01096126337
+</a>
 </div>
         </div>
       </div>

@@ -4,6 +4,14 @@ export const NAV_LINKS = [
     label: 'About me ',
   },
   {
+    href: '#Brands',
+    label: 'Brands',
+  },
+  {
+    href: '#Tools',
+    label: 'Tools',
+  },
+  {
     href: '#Campaigns',
     label: 'Campaigns',
   },
@@ -45,8 +53,10 @@ export const Projects = [
       <p>Skills:</p>
       <p>Instagram Ads • Snapchat Ads • Conversion Tracking • Google Analytics • Dynamic Remarketing • Google Ads</p>
     </div>`,
-    image: 'https://i.postimg.cc/dtxhppnh/case-1.png',
 
+  image: [
+'https://i.postimg.cc/dtxhppnh/case-1.png'
+  ],
   },
 
   {
@@ -67,8 +77,10 @@ export const Projects = [
   </ul>
 </div>
     `,
-    image: 'https://i.postimg.cc/qvTDWZ5c/case-2.png',
 
+  image: [
+'https://i.postimg.cc/qvTDWZ5c/case-2.png'
+  ],
   },
   {
     id: 3,
@@ -89,8 +101,10 @@ export const Projects = [
     <li><strong>Total Spend:</strong> 6,800 SAR</li>
   </ul>
 </div>
-    `, image: 'https://i.postimg.cc/XXMdGmCs/case-3.png',
-
+    `, 
+  image: [
+'https://i.postimg.cc/XXMdGmCs/case-3.png'
+  ],
   },
   {
     id: 4,
@@ -109,8 +123,10 @@ export const Projects = [
     <li><strong>Total Spend:</strong> 10,600 SAR</li>
   </ul>
 </div>
-    `, image: 'https://i.postimg.cc/855hqhGm/case-4.png',
-
+    `,
+  image: [
+'https://i.postimg.cc/855hqhGm/case-4.png'
+  ],
   },
   {
     id: 5,
@@ -129,28 +145,12 @@ export const Projects = [
     <li><strong>Total Spend:</strong> 5,550 USD</li>
   </ul>
 </div>`
-    , image: 'https://i.postimg.cc/jjjcbVQf/case-5.png',
+    ,  image: [
+    'https://i.postimg.cc/jjjcbVQf/case-5.png',
+    'https://i.postimg.cc/kGMXjcd7/case-6.png'
+  ],
 
   },
 
-  {
-    id: 6,
-    description: `
-<div class="px-2 md:!px-6 shadow-md rounded-lg">
-  <ul class="list-disc space-y-2">
-    <li><strong>Marketing Objectives:</strong> Conversion Campaign</li>
-    <li><strong>Industry:</strong> E-commerce</li>
-    <li><strong>Platform:</strong> Instagram</li>
-    <li><strong>Total Purchases:</strong> 734 Orders</li>
-    <li><strong>CPP (Cost Per Purchase):</strong> 7.46 USD</li>
-    <li><strong>Sales:</strong> 53,108.65 USD</li>
-    <li><strong>A.O.V:</strong> 72.35 USD</li>
-    <li><strong>ROAS:</strong> 10</li>
-    <li><strong>Total Spend:</strong> 5,550 USD</li>
-  </ul>
-</div>`
-    , image: 'https://i.postimg.cc/kGMXjcd7/case-6.png',
 
- 
-  },
 ]

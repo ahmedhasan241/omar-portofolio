@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     'nuxt-icon',
     '@nuxtjs/google-fonts',
+    'nuxt-swiper'
   ],
 
   css: ['~/assets/css/main.css'],

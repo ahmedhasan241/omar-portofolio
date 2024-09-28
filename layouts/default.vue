@@ -21,7 +21,7 @@ onMounted(() => {
       :y="y"
       :goTop="goTop" />
     <div
-      class="container relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen">
+      class=" relative flex flex-col  w-full text-sm sm:text-base min-h-screen">
       <div class="fixed bottom-0 right-0 p-10 z-[10]">
         <button
           aria-label="go to top button"
